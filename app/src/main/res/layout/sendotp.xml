@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/back3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step 2"
+        android:textSize="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#44FFD4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOBILE VERIFICATION"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FF6680"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#CCCCFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="vpownvpwnvpnwvpnwv"
+        android:textSize="20dp"
+        android:textColor="#ff00ff"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/send_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:text="Send OTP"
+            android:textSize="30dp"
+            android:backgroundTint="#001A11"/>
+
+        <ProgressBar
+            android:id="@+id/pb_sendotp"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone">
+        </ProgressBar>
+    </FrameLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
